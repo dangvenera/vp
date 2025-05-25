@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="#4f5257"
+    >
+    
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="@string/menu"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:background="#c6c9cb"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/calculator_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#c6c9cb"
+        android:text="@string/calculator"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mplayer_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#c6c9cb"
+        android:text="@string/mplayer"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
